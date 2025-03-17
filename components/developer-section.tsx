@@ -35,8 +35,8 @@ export default function DeveloperSection() {
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
             <div className="w-full md:w-1/3">
-              <div className="relative h-[200px] w-[200px] mx-auto rounded-full overflow-hidden border-4 border-gray-100 shadow-lg">
-                <Image src="/placeholder.svg?height=200&width=200" alt="Mahindra Lifespaces Logo" fill className="object-cover" />
+              <div className="relative h-[100px] w-[300px] mx-auto overflow-hidden border-4 border-gray-100 shadow-lg">
+                <Image src="/640px-Mahindra-Lifespaces.png" alt="Mahindra Lifespaces Logo" fill className="object-contain" />
               </div>
             </div>
 

@@ -53,7 +53,7 @@ export default function LocationSection() {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <div className="relative h-[400px] rounded-xl overflow-hidden shadow-xl transform hover:scale-[1.02] transition-all duration-300">
-            <Image src="/placeholder.svg?height=400&width=600" alt="Location Map" fill className="object-cover" />
+            <Image src="/map.png?height=400&width=600" alt="Location Map" fill className="object-cover" />
             <div className="absolute top-4 left-4 bg-white p-2 rounded-lg shadow-md animate-pulse">
               <MapPin className="h-6 w-6 text-red-500" />
             </div>
