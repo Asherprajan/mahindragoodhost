@@ -50,7 +50,7 @@ export default function Home() {
       {/* <VirtualTourSection /> */}
       <DeveloperSection />
       <Footer />
-      <ContactModal
+      <ContactModal 
         isOpen={isContactModalOpen}
         onClose={() => setIsContactModalOpen(false)}
         onSubmit={handleContactSubmit}
