@@ -155,12 +155,18 @@ export default function Header() {
                 <Button className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 w-full" onClick={handleDownload}>
                   <Download className="mr-2 h-4 w-4" /> Brochure
                 </Button>
-                <Button className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 w-full">
-                  WhatsApp
-                </Button>
-                <Button className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 w-full">
-                  Contact Us
-                </Button>
+                <Button 
+                className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700"
+                onClick={() => window.open('https://wa.me/916363692124', '_blank')}
+              >
+                <FaWhatsapp className="mr-2 h-4 w-4" /> WhatsApp
+              </Button>
+              <Button 
+                className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 w-full"
+                onClick={() => window.location.href = 'tel:6363692124'}
+              >
+                <FaPhoneAlt className="mr-2 h-4 w-4" /> Contact Us
+              </Button>
               </div>
             </div>
           </div>

@@ -14,6 +14,7 @@ import VirtualTourSection from "@/components/virtual-tour-section"
 import DeveloperSection from "@/components/developer-section"
 import Footer from "@/components/footer"
 import { ContactModal } from "@/components/ContactModal"
+import { FaWhatsapp } from "react-icons/fa"
 
 export default function Home() {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false)
@@ -55,6 +56,14 @@ export default function Home() {
         onClose={() => setIsContactModalOpen(false)}
         onSubmit={handleContactSubmit}
       />
+      {/* WhatsApp Button */}
+      <button
+        onClick={() => window.open('https://wa.me/916363692124', '_blank')}
+        className="fixed bottom-8 right-8 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg z-50 transition-all duration-300"
+        aria-label="Chat on WhatsApp"
+      >
+        <FaWhatsapp className="h-8 w-8" />
+      </button>
     </main>
   )
 }
