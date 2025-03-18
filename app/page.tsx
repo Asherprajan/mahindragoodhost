@@ -45,9 +45,9 @@ export default function Home() {
       <MasterPlanSection />
       <FloorPlanSection />
       <AmenitiesSection />
-      <GallerySection />
+      {/* <GallerySection /> */}
       <LocationSection />
-      <VirtualTourSection />
+      {/* <VirtualTourSection /> */}
       <DeveloperSection />
       <Footer />
       <ContactModal
