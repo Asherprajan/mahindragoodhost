@@ -165,6 +165,95 @@ export default function RootLayout({
                     }
                   ],
                   "branchCode": "Singasandra"
+                },
+                {
+                  "@type": "Organization",
+                  "@id": "https://mahindragoodhost.co.in/#contactInfo",
+                  "name": "Mahindra Good Host",
+                  "url": "https://mahindragoodhost.co.in",
+                  "contactPoint": [
+                    {
+                      "@type": "ContactPoint",
+                      "telephone": "+91-636-369-2124",
+                      "contactType": "sales",
+                      "areaServed": "Bangalore",
+                      "availableLanguage": ["English", "Hindi", "Kannada"]
+                    }
+                  ],
+                  "sameAs": [
+                    "https://wa.me/916363692124"
+                  ]
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://mahindragoodhost.co.in/#website",
+                  "url": "https://mahindragoodhost.co.in",
+                  "name": "Mahindra Good Host",
+                  "description": "Ultra-Luxury 3, 3.5 & 4 BHK Apartments at Singasandra",
+                  "potentialAction": [
+                    {
+                      "@type": "CommunicateAction",
+                      "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://wa.me/916363692124",
+                        "name": "WhatsApp Contact"
+                      },
+                      "actionStatus": "PotentialActionStatus"
+                    },
+                    {
+                      "@type": "ContactAction",
+                      "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "tel:6363692124",
+                        "name": "Phone Contact"
+                      },
+                      "actionStatus": "PotentialActionStatus"
+                    }
+                  ],
+                  "hasPart": [
+                    {
+                      "@type": "WebPage",
+                      "@id": "https://mahindragoodhost.co.in/#overview",
+                      "name": "Overview",
+                      "isPartOf": {"@id": "https://mahindragoodhost.co.in/#website"}
+                    },
+                    {
+                      "@type": "WebPage",
+                      "@id": "https://mahindragoodhost.co.in/#pricing",
+                      "name": "Pricing",
+                      "isPartOf": {"@id": "https://mahindragoodhost.co.in/#website"}
+                    },
+                    {
+                      "@type": "WebPage",
+                      "@id": "https://mahindragoodhost.co.in/#master-plan",
+                      "name": "Master Plan",
+                      "isPartOf": {"@id": "https://mahindragoodhost.co.in/#website"}
+                    },
+                    {
+                      "@type": "WebPage",
+                      "@id": "https://mahindragoodhost.co.in/#floor-plan",
+                      "name": "Floor Plan",
+                      "isPartOf": {"@id": "https://mahindragoodhost.co.in/#website"}
+                    },
+                    {
+                      "@type": "WebPage",
+                      "@id": "https://mahindragoodhost.co.in/#amenities",
+                      "name": "Amenities",
+                      "isPartOf": {"@id": "https://mahindragoodhost.co.in/#website"}
+                    },
+                    {
+                      "@type": "WebPage",
+                      "@id": "https://mahindragoodhost.co.in/#location",
+                      "name": "Location",
+                      "isPartOf": {"@id": "https://mahindragoodhost.co.in/#website"}
+                    },
+                    {
+                      "@type": "WebPage",
+                      "@id": "https://mahindragoodhost.co.in/#developer",
+                      "name": "Developer",
+                      "isPartOf": {"@id": "https://mahindragoodhost.co.in/#website"}
+                    }
+                  ]
                 }
               ]
             })

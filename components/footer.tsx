@@ -12,27 +12,27 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center mb-6">
               <Image
-                src="/placeholder.svg?height=40&width=150"
-                alt="Logo"
+                src="/640px-Mahindra-Lifespaces.png"
+                alt="Mahindra Good Host Logo"
                 width={150}
                 height={40}
                 className="h-10 w-auto"
               />
             </Link>
             <p className="text-gray-400 mb-6">
-              Creating premium living spaces for discerning homebuyers. Experience luxury living redefined.
+              Ultra-Luxury 3, 3.5 & 4 BHK Apartments at Singasandra. Experience sustainable luxury living with Net-Zero Energy Flats.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="https://www.facebook.com/mahindralifespaces" className="text-gray-400 hover:text-white transition-colors">
                 <Facebook className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="https://twitter.com/MLifespaces" className="text-gray-400 hover:text-white transition-colors">
                 <Twitter className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="https://www.instagram.com/mahindralifespaces" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="https://www.linkedin.com/company/mahindra-lifespaces" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="h-5 w-5" />
               </Link>
             </div>
@@ -47,13 +47,23 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="#overview" className="text-gray-400 hover:text-white transition-colors">
+                  Overview
+                </Link>
+              </li>
+              <li>
                 <Link href="#pricing" className="text-gray-400 hover:text-white transition-colors">
-                  Price
+                  Pricing
                 </Link>
               </li>
               <li>
                 <Link href="#master-plan" className="text-gray-400 hover:text-white transition-colors">
-                  Site Plan
+                  Master Plan
+                </Link>
+              </li>
+              <li>
+                <Link href="#floor-plan" className="text-gray-400 hover:text-white transition-colors">
+                  Floor Plan
                 </Link>
               </li>
               <li>
@@ -66,11 +76,6 @@ export default function Footer() {
                   Location
                 </Link>
               </li>
-              <li>
-                <Link href="#gallery" className="text-gray-400 hover:text-white transition-colors">
-                  Gallery
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -80,47 +85,52 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-red-500 mr-3 mt-1 flex-shrink-0" />
                 <span className="text-gray-400">
-                  123 Luxury Avenue, Prime District
+                  Singasandra, near Basapura Lake
                   <br />
-                  City Center, 100001
+                  Bangalore, Karnataka 560068
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-red-500 mr-3 flex-shrink-0" />
-                <span className="text-gray-400">+1 (123) 456-7890</span>
+                <Link href="tel:+916363692124" className="text-gray-400 hover:text-white">
+                  +91 6363 692 124
+                </Link>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-red-500 mr-3 flex-shrink-0" />
-                <span className="text-gray-400">info@luxuryhomes.com</span>
+                <Link href="mailto:sales@mahindragoodhost.co.in" className="text-gray-400 hover:text-white">
+                  sales@mahindragoodhost.co.in
+                </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-lg font-bold mb-6">Newsletter</h3>
-            <p className="text-gray-400 mb-4">Subscribe to our newsletter for updates on new projects and offers.</p>
-            <div className="flex space-x-2">
-              <Input type="email" placeholder="Your Email" className="bg-gray-800 border-gray-700 text-white" />
-              <Button className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700">
-                Subscribe
-              </Button>
-            </div>
+            <h3 className="text-lg font-bold mb-6">RERA Details</h3>
+            <p className="text-gray-400 mb-4">
+              RERA Registration No: <span className="animate-pulse text-red-500 font-medium">coming soon</span>
+              <br /><br />
+              For more details visit the official RERA website
+              <Link href="https://rera.karnataka.gov.in" className="text-red-500 hover:text-red-400 ml-1" target="_blank">
+                rera.karnataka.gov.in
+              </Link>
+            </p>
           </div>
         </div>
 
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} Luxury Homes Developers. All rights reserved.
+              &copy; {new Date().getFullYear()} Mahindra Good Host. All rights reserved.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+              <Link href="/privacy-policy" className="text-gray-400 hover:text-white text-sm transition-colors">
                 Privacy Policy
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+              <Link href="/terms" className="text-gray-400 hover:text-white text-sm transition-colors">
                 Terms of Service
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+              <Link href="/disclaimer" className="text-gray-400 hover:text-white text-sm transition-colors">
                 Disclaimer
               </Link>
             </div>

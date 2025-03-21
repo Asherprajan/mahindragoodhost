@@ -91,7 +91,14 @@ export default function HeroSection() {
             <div className="flex flex-col md:flex-row h-full items-center">
               <div className="w-full md:w-1/2 text-white mb-8 md:mb-0">
                 <div className="relative">
-                  <span className="inline-block text-sm font-bold bg-red-500 text-white px 3 py-1 rounded-full mb-3 animate-bounce">NEW LAUNCH</span>
+                  <span className="inline-block text-sm font-bold bg-gradient-to-r from-red-500 to-red-600 text-white px-4 py-2 rounded-full mb-3 shadow-lg hover:shadow-red-500/30 transition-all duration-300 transform hover:scale-105 relative overflow-hidden">
+                    <span className="relative flex items-center z-10">
+                      <span className="absolute -left-2 w-2 h-2 bg-white rounded-full animate-ping"></span>
+                      NEW LAUNCH
+                    </span>
+                    <span className="absolute inset-0 bg-white/10 opacity-0 hover:opacity-100 transition-opacity duration-300"></span>
+                    <span className="absolute -inset-2 bg-gradient-to-r from-red-500 to-red-600 rounded-full blur opacity-0 hover:opacity-100 transition-opacity duration-300"></span>
+                  </span>
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
                   Mahindra Good Host
