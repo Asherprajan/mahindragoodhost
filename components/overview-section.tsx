@@ -31,15 +31,15 @@ export default function OverviewSection() {
     <section id="overview" className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">About Mahindra Good Host</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">About Mahindra Good Haven</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-red-500 to-red-600 mx-auto mb-8"></div>
 
           <p className="text-gray-700 text-lg mb-8 leading-relaxed">
-            Located in Singasandra near the Basapura Lake, this thriving residential neighbourhood offers top-rated education, healthcare and great connectivity to all the city's hotspots. Flats at Mahindra Good Host come with the promise of enriching the lives of its people by delivering a lifestyle in harmony with the natural ecosystem.
+            Located in Singasandra near the Basapura Lake, this thriving residential neighbourhood offers top-rated education, healthcare and great connectivity to all the city's hotspots. Flats at Mahindra Good Haven come with the promise of enriching the lives of its people by delivering a lifestyle in harmony with the natural ecosystem.
           </p>
 
           <p className="text-gray-700 text-lg mb-8 leading-relaxed">
-            Residential units in Mahindra Good Host promises a sustainable lifestyle with eco-friendly Flats that complement the life of its residents. With Net-Zero Energy Flats, we guarantee the perfect amalgamation of comfort, security, and luxury, so you can cozy up in your personal paradise.
+            Residential units in Mahindra Good Haven promises a sustainable lifestyle with eco-friendly Flats that complement the life of its residents. With Net-Zero Energy Flats, we guarantee the perfect amalgamation of comfort, security, and luxury, so you can cozy up in your personal paradise.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-12">

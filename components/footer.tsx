@@ -108,7 +108,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-6">RERA Details</h3>
             <p className="text-gray-400 mb-4">
-              RERA Registration No: <span className="animate-pulse text-red-500 font-medium">coming soon</span>
+              RERA Registration No: <span className="text-red-500 font-medium">PRM/KA/RERA/1251/310/PR/160425/007668</span>
               <br /><br />
               For more details visit the official RERA website
               <Link href="https://rera.karnataka.gov.in" className="text-red-500 hover:text-red-400 ml-1" target="_blank">
@@ -121,7 +121,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} Mahindra Good Host. All rights reserved.
+              &copy; {new Date().getFullYear()} Mahindra Good Haven. All rights reserved.
             </p>
             <div className="flex space-x-4">
               <Link href="/privacy-policy" className="text-gray-400 hover:text-white text-sm transition-colors">
@@ -140,4 +140,3 @@ export default function Footer() {
     </footer>
   )
 }
-

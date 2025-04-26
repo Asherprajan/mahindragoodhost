@@ -15,6 +15,7 @@ import DeveloperSection from "@/components/developer-section"
 import Footer from "@/components/footer"
 import { ContactModal } from "@/components/ContactModal"
 import { FaWhatsapp } from "react-icons/fa"
+import LocationDetails from "./components/location-details"
 
 export default function Home() {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false)
@@ -46,6 +47,7 @@ export default function Home() {
       <MasterPlanSection />
       <FloorPlanSection />
       <AmenitiesSection />
+      <LocationDetails />
       {/* <GallerySection /> */}
       <LocationSection />
       {/* <VirtualTourSection /> */}

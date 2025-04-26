@@ -59,7 +59,7 @@ export default function LocationSection() {
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
             <div className="absolute bottom-0 left-0 w-full p-4 text-white">
-              <h3 className="font-bold text-lg">Mahindra Good Host</h3>
+              <h3 className="font-bold text-lg">Mahindra Good Haven</h3>
               <p>Singasandra, Off Hosur Road, South Bangalore</p>
             </div>
           </div>
@@ -93,7 +93,7 @@ export default function LocationSection() {
                   Address
                 </h4>
                 <p className="text-gray-700">
-                  Mahindra Good Host<br />
+                  Mahindra Good Haven <br />
                   Singasandra, Off Hosur Road<br />
                   South Bangalore
                 </p>

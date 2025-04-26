@@ -101,7 +101,7 @@ export default function HeroSection() {
                   </span>
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
-                  Mahindra Good Host
+                  Mahindra Good Haven
                   <span className="block text-red-400">Luxury Redefined</span>
                 </h1>
                 <p className="text-xl md:text-2xl mb-6 text-gray-200">Ultra-Luxury 3, 3.5 & 4 BHK Apartments at Singasandra</p>
