@@ -12,45 +12,72 @@ export default function GallerySection() {
 
   const galleryImages = [
     {
-      src: "/placeholder.svg?height=300&width=400",
+      src: "/serene_water.png",
       alt: "Exterior View",
       category: "exterior",
     },
     {
-      src: "/placeholder.svg?height=300&width=400",
+      src: "/badmitton.png",
       alt: "Living Room",
       category: "interior",
     },
     {
-      src: "/placeholder.svg?height=300&width=400",
+      src: "/infinity_pool.png",
       alt: "Swimming Pool",
       category: "amenities",
     },
     {
-      src: "/placeholder.svg?height=300&width=400",
+      src: "/coutyard_view.png",
       alt: "Building Facade",
       category: "exterior",
     },
     {
-      src: "/placeholder.svg?height=300&width=400",
-      alt: "Master Bedroom",
-      category: "interior",
+      src: "/kidsplayarea.png",
+      alt: "kidsplayarea",
+      category: "exterior",
     },
     {
-      src: "/placeholder.svg?height=300&width=400",
-      alt: "Fitness Center",
+      src: "/miniforest.png",
+      alt: "miniforest",
+      category: "exterior",
+    },
+    {
+      src: "/sculpturearea.png",
+      alt: "sulpturearea",
+      category: "exterior",
+    },
+    {
+      src: "/floral_garden.png",
+      alt: "floral_garden",
+      category: "exterior",
+    },  
+    {
+      src: "/petpark.png",
+      alt: "petpark",
+      category: "exterior",
+    },
+    {
+      src: "/multi_purpose_hall.png",
+      alt: "multi_purpose_hall",
       category: "amenities",
     },
     {
-      src: "/placeholder.svg?height=300&width=400",
-      alt: "Kitchen",
-      category: "interior",
-    },
-    {
-      src: "/placeholder.svg?height=300&width=400",
-      alt: "Garden Area",
+      src: "/fully_equipped_gym.png",
+      alt: "fully_equipped_gym",
       category: "amenities",
     },
+    {
+      src: "/indoor_games_room.png",
+      alt: "indoor_games_room",
+      category: "amenities",
+    },
+    {
+      src: "/senior_citizen.png",
+      alt: "senior_citizen_park",
+      category: "amenities",
+    }
+    
+    
   ]
 
   const filteredImages = activeTab === "all" ? galleryImages : galleryImages.filter((img) => img.category === activeTab)

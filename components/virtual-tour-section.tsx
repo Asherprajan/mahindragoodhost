@@ -18,7 +18,7 @@ export default function VirtualTourSection() {
 
         <Card className="max-w-4xl mx-auto shadow-lg overflow-hidden">
           <div className="relative h-[300px] md:h-[500px]">
-            <Image src="/placeholder.svg?height=500&width=900" alt="Virtual Tour" fill className="object-cover" />
+            <Image src="/plan.png" alt="Virtual Tour" fill className="object-cover" />
             <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
               <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
                 <DialogTrigger asChild>
@@ -28,9 +28,16 @@ export default function VirtualTourSection() {
                 </DialogTrigger>
                 <DialogContent className="max-w-5xl">
                   <div className="relative h-[600px] w-full">
-                    <div className="absolute inset-0 flex items-center justify-center bg-black">
-                      <p className="text-white">Video player would be embedded here</p>
-                    </div>
+                    <iframe 
+                      width="100%" 
+                      height="100%" 
+                      src="https://www.youtube.com/embed/pLdHE6rcNH8?si=0WlU9KRwMWYS3WtS" 
+                      title="YouTube video player" 
+                      frameBorder="0" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                      referrerPolicy="strict-origin-when-cross-origin" 
+                      allowFullScreen
+                    ></iframe>
                   </div>
                 </DialogContent>
               </Dialog>
@@ -49,4 +56,3 @@ export default function VirtualTourSection() {
     </section>
   )
 }
-
